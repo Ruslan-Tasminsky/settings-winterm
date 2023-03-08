@@ -26,10 +26,14 @@
       "keys": "alt+shift+d"
     }
   ],
+  "alwaysShowNotificationIcon": false,
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+  "disableAnimations": false,
+  "experimental.rendering.software": false,
   "firstWindowPreference": "defaultProfile",
+  "language": "ru",
   "profiles": {
     "defaults": {
       "colorScheme": "carbonfox",
@@ -40,7 +44,8 @@
       },
       "opacity": 100,
       "padding": "7",
-      "useAcrylic": false
+      "useAcrylic": false,
+      "useAtlasEngine": false
     },
     "list": [
       {
@@ -399,28 +404,31 @@
       "yellow": "#808000"
     },
     {
-      "background": "#080808",
-      "black": "#282828",
-      "blue": "#78A9FF",
-      "brightBlack": "#484848",
-      "brightBlue": "#8CB6FF",
-      "brightCyan": "#52BDFF",
-      "brightGreen": "#46C880",
-      "brightPurple": "#C8A5FF",
-      "brightRed": "#F16DA6",
-      "brightWhite": "#E4E4E5",
-      "brightYellow": "#2DC7C4",
-      "cursorColor": "#F2F4F8",
-      "cyan": "#33B1FF",
-      "foreground": "#F2F4F8",
-      "green": "#25BE6A",
       "name": "carbonfox",
-      "purple": "#BE95FF",
-      "red": "#EE5396",
-      "selectionBackground": "#2A2A2A",
-      "white": "#DFDFE0",
-      "yellow": "#08BDBA"
+      "background": "#161616",
+      "foreground": "#f2f4f8",
+      "cursorColor": "#f2f4f8",
+      "selectionBackground": "#2a2a2a",
+      "black": "#282828",
+      "blue": "#78a9ff",
+      "cyan": "#33b1ff",
+      "green": "#25be6a",
+      "purple": "#be95ff",
+      "red": "#ee5396",
+      "white": "#dfdfe0",
+      "yellow": "#08bdba",
+      "brightBlack": "#484848",
+      "brightBlue": "#8cb6ff",
+      "brightCyan": "#52bdff",
+      "brightGreen": "#46c880",
+      "brightPurple": "#c8a5ff",
+      "brightRed": "#f16da6",
+      "brightWhite": "#e4e4e5",
+      "brightYellow": "#2dc7c4"
     }
   ],
-  "themes": []
+  "showTabsInTitlebar": false,
+  "theme": "system",
+  "themes": [],
+  "useAcrylicInTabRow": true
 }
